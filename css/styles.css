@@ -117,3 +117,32 @@ ol {
     display: inline-flex;
     justify-content: flex-end;
 }  
+
+
+
+@media (max-width: 100px) {
+    #comparison {
+        display: flex;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .product{
+    
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 30px; 
+    }
+    
+    
+    ul {
+        list-style: none;
+        margin: 0;
+        padding:0;
+    }
+    
+    ol {
+        list-style: none;
+    } 
+}
