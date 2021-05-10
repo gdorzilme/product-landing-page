@@ -1,1 +1,2 @@
-# product-landing-page
+# Office Chairs Max (Sample Product Landing page template)
+
