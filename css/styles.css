@@ -14,6 +14,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: bold;
 }
 
 #nav-bar{
@@ -32,10 +33,64 @@ h2 {
     padding-bottom: 25px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#email {
+    display: flex;
+    width:300px;
+    height: 40px; 
+}
+
+.grid {
+    display: flex;
+
+}
+
+.smallicon {
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 20vw;
+
+}
+
+p{
+    display: block;
+}
+
+.desc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 80vw;
+    padding: 5px;
+
+}
+
+.desctitle {
+    display: flex;
+    padding: 30px; 
+    
+}
+
+#submit {
+    display: flex;
+    justify-content: center; 
+    height: 38px;
+    padding: 10px;
+    margin: 25px;
+
 }
 
 .nav-link {
     display: inline;
+    padding: 45px;
 
 }
  
@@ -64,7 +119,7 @@ h2 {
 }
 
 #features {
-
+    margin-top: 30px;
 
 } 
 
