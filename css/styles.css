@@ -3,7 +3,7 @@ body {
     font-size: 12px;
     font-weight: normal; 
     background: linear-gradient(130deg, lightblue, skyblue, blue, navy);
-    
+    color: whitesmoke;
 }
 
 h1 {
@@ -199,6 +199,7 @@ ol {
 .copyright {
     display: inline-flex;
     justify-content: flex-end;
+    color: black;
 }  
 
 
