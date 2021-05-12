@@ -22,12 +22,23 @@ h2 {
     display: flex;
     -webkit-box-pack: justify;
     flex-direction: row;
-    align-items: center;
+    
     justify-content: space-between;
     padding: 0.5px;
+    border-bottom: aliceblue solid 3px;
+    width: 100%;
+    background: lightblue;
     
+
+       
 }
 
+
+#nav-bar a {
+    text-decoration: none;
+    padding: 22px;
+    color: black;
+}
 
 #form {
     padding-top: 25px;
@@ -92,6 +103,8 @@ p{
 .nav-link {
     display: inline;
     padding: 45px;
+    font-size: 2.6em;
+    color:aliceblue;
 
 }
  
@@ -117,6 +130,10 @@ p{
     width: 100%;
     top: 0;
     left: 0;
+}  
+
+#brand {
+    margin-top: 10%;
 }
 
 #features {
@@ -191,6 +208,14 @@ ol {
   font-family: arial, sans-serif;
   font-size: 12px;    
 } 
+
+.footer a {
+    text-decoration: none;
+    padding: 22px;
+    color: black;
+    font-size: 1.1em;
+    font-weight: bold;
+}
 
 .nav-link2 {
     display: inline;
